@@ -45,9 +45,8 @@ body {
 }
 
 .container {
-    margin: 20% auto;
-    width: 65%;
-    /* overflow: scroll; */
+    /* margin: 20% auto; */
+    width: 100%;
 }
 
 .page1 {
@@ -319,7 +318,7 @@ fieldset {
 @media only screen and (min-width: 912px) {
 
     .container {
-        width: 80%;
+        width: 100%;
 
     }
 
