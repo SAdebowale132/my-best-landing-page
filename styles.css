@@ -1,0 +1,489 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(56, 2, 59);
+}
+
+.imgheader {
+    width: 100%;
+    height: 90vh;
+    background: url(image-header.jpg);
+    background-size: cover;
+}
+
+.egg {
+    width: 100%;
+    height: 50vh;
+    background: url(image-transform.jpg);
+    background-size: cover;
+}
+
+.cup {
+    width: 100%;
+    height: 50vh;
+    background: url(image-stand-out.jpg);
+    background-size: cover;
+    
+}
+
+.design {
+    width: 100%;
+    height: 100vh;
+    background: url(image-graphic-design.jpg);
+    background-size: cover;
+}
+
+.photo {
+    width: 100%;
+    height: 100vh;
+    background: url(image-photography.jpg);
+    background-size: cover;
+}
+
+.container {
+    margin: 20% auto;
+    width: 65%;
+    /* overflow: scroll; */
+}
+
+.page1 {
+    background: white;
+    text-align: center;
+    padding: 10% 5%;
+    height: 60vh;
+}
+
+.page2 {
+    background: white;
+    text-align: center;
+    padding: 10% 7%;
+    height: 60vh;
+
+
+}
+
+.one {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.two {
+    margin-top: 10%;
+    font-size: 20px;
+    font-family: tahoma;
+    opacity: 0.8;
+}
+
+.three {
+    margin-top: 10%;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: rgb(242, 242, 7);
+    text-decoration-thickness: 2px;
+
+}
+
+.four {
+    margin-top: 10%;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: rgb(234, 111, 87);
+    text-decoration-thickness: 2px;
+
+}
+
+.img-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.img-grid img {
+    width: 100%;
+    height: auto;
+}
+
+.page3 {
+    padding-top: 15%;
+    background: white;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.emily, .thomas, .jennie{
+    border-radius: 50%;
+    width: 20%;
+    margin-bottom: 7%;
+}
+
+.MD {
+    font-family: tahoma;
+    margin-bottom: 20px;
+    opacity: 0.7
+}
+
+h3 {
+    font-weight: bold;
+}
+
+h5 {
+    opacity: 0.3;
+    padding-bottom: 20%;
+    font-weight: bold;
+
+}
+
+h2 {
+    margin-bottom: 10%;
+    opacity: 0.3;
+}
+
+.greenpage {
+    background: rgb(167, 235, 168);
+    padding: 5%;
+    height: 50vh;
+    text-align: center;
+}
+
+.facebook {
+    background: url(./icon-facebook.svg);
+    width: 10%;
+    height: 5vh;
+    background-repeat: no-repeat;
+}
+
+.instagram {
+    background: url(icon-instagram.svg);
+    width: 10%;
+    height: 5vh;
+    background-repeat: no-repeat;
+}
+
+.twitter {
+    background: url(icon-twitter.svg);
+    width: 10%;
+    height: 5vh;
+    background-repeat: no-repeat;
+}
+
+.pinterest {
+    background: url(icon-pinterest.svg);
+    width: 10%;
+    height: 5vh;
+    background-repeat: no-repeat;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30%;
+    margin-left: 27%;
+    gap: 25px;
+}
+
+.sun {
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: tahoma;
+    color: rgb(27, 74, 29);
+}
+
+.side {
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    gap: 23%;
+}
+
+.place {
+    color: rgb(41, 109, 42);
+    font-family: tahoma;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.imgcontainer1 {
+    position: relative;
+}
+
+.imgcontainer2 {
+    position: relative;
+}
+
+.imgcontainer3 {
+    position: relative;
+}
+
+.overlay-text1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for centering */;
+    color: white;
+}
+
+.overlay-text2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 80%; 
+    left: 35%; 
+    transform: translate(-27%, -40%); /* Adjust for centering */;
+    color: black;
+}
+
+.overlay-text3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 80%;
+    left: 35%; 
+    transform: translate(-27%, -40%); /* Adjust for centering */;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6d99ea;
+    padding: 20px 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    width: 50%;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 70%;
+    left: 0;
+    right: 0;
+    background-color: white ;
+    flex-direction: column;
+
+}
+
+fieldset {
+    background: rgb(236, 215, 215);
+    border-radius: 20px;
+    border: 1px solid rgb(235, 202, 202);
+    padding: 4px;
+    margin-top: -2%;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: rgb(72, 43, 43);
+    font-size: 25px;
+    padding: 6px;
+    transition: background-color 0.5s;
+}
+
+.hamburger {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 912px) {
+
+    .container {
+        width: 80%;
+
+    }
+
+    .imgheader {
+        background: url(./desktop/image-header.jpg) ;
+        background-size: cover;
+    }
+
+    .egg {
+        background: url(desktop/image-transform.jpg) ;
+        background-size: cover;
+        height: 70vh;
+        width: 100%;
+    }
+
+    .page1{
+        width: 86%;
+        height: 70vh;
+        text-align: left;
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .flexi {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cup {
+        width: 110%;
+        height: 70vh;
+        background:url(desktop/image-stand-out.jpg) ;
+        background-size: cover;
+    }
+
+    .page2 {
+        width: 100%;
+        height: 70vh;
+        text-align: left;
+        padding: 15% 15%;
+    }
+
+    .flex1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    
+    .design {
+        background: url(desktop/image-graphic-design.jpg) ;
+        background-size: cover;
+        height: 70vh;
+
+    }
+
+    .photo {
+        background: url(desktop/image-photography.jpg);
+        background-size: cover;
+        height: 70vh;
+    }
+
+    .mainflex {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+
+    .flex2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+
+    }
+
+    .flex4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+
+    }
+
+    .flex5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+
+    }
+
+    h2 {
+        margin-top: -15%;
+    } 
+
+    .img-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .sun {
+        margin-top: -3%;
+        margin-left:-3%;
+    }
+
+    .side {
+        margin-top: 4%;
+        text-align: center;
+        margin-left: 30% ;
+        display: flex;
+        flex-direction: row;
+        gap: 15%;
+    }
+
+    .icons {
+        margin-top: 15%;
+        margin-left: 37%;
+        gap: 3px;
+    }  
+
+}
+
+@media only screen and (max-width: 912px) {
+    nav .nav-links {
+        display: none;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    nav .hamburger {
+        display: block;
+    }
+
+    .nav-links.active {
+        display: block;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .nav-links li a {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 769px) {
+    /* Ensure the nav links are always visible on desktop */
+    nav .nav-links {
+        display: flex;
+        position: static;
+        background-color: transparent;
+        flex-direction: row;
+    }
+
+    /* Hide the hamburger icon on desktop */
+    nav .hamburger {
+        display: none;
+    }
+}    
